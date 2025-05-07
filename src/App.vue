@@ -50,27 +50,35 @@ function calculadora(){
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
 }
-.container,input{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10px 150px;
-
+:global(body){
+  background-color: #000;
+  color: #fff;
 }
 .container{
   font-size: 1em;
   font-weight: 800;
-  border: 2px solid #000;
+  border: 2px solid #fff;
   border-radius: 65px;
+  max-width:80vw;
+  margin:20% 10%;
+
+}
+.container,input{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+
 }
 input,select{
+  background-color: #000;
+  color: #fff;
   border: 0;
   outline: 1px solid;
   border-bottom: 2px solid;
   text-align: center;
+  margin: 10px 150px;
 
 }
-
-
 
 </style>
