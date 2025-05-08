@@ -51,13 +51,13 @@ function calculadora(){
   text-align: center;
 }
 :global(body){
-  background-color: #000;
-  color: #fff;
+  background-color: #121212;
+  color:  #c2bcbc;
 }
 .container{
   font-size: 1em;
   font-weight: 800;
-  border: 2px solid #fff;
+  border: 2px solid #c2bcbc;
   border-radius: 65px;
   max-width:80vw;
   margin:20% 10%;
@@ -71,8 +71,8 @@ function calculadora(){
 
 }
 input,select{
-  background-color: #000;
-  color: #fff;
+  background-color: #121212;
+  color: #c2bcbc;
   border: 0;
   outline: 1px solid;
   border-bottom: 2px solid;
